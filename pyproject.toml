@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jpegtran"
+version = "1.0.0"
+authors = [
+    {name="Audrey3005", email=""},
+]
+description = "Python wrapper for libjpegtran"
+readme = "README.MD"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/tntmod54321/pyjpegtran"
+Issues = "https://github.com/tntmod54321/pyjpegtran/issues"
